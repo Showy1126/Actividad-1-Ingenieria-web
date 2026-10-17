@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+header .img-container{
+    display: flex;
+    align-items: center;
+
+}
+
+header .img-container img{
+    width: 70px;
+    height: 68px;
+    cursor: pointer;
+}
+
+header .img-container span{
+    cursor:pointer;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 20px;
+    color:white;
+}
+
+/* nav */
+nav{
+    margin-right: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    
+}
+
+
+/* main */
+main{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgb(70, 69, 69);
+}
+
+main .container{
+    width: 100%;
+    padding: 0 40px;
+    background-image:url(https://img.magnific.com/vector-gratis/tecnologia-abstracta-fondo-azul_1035-17929.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex; 
+    margin-top: 50px; 
+}
+
+main .container .texto-container{
+    
+    width: 100%;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    color:white;
+    
+
+}
+
+.texto-container .titulo-contenido{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color:white;
+    
+}
+
+.texto-container .texto-contenido{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+
+.texto-container .boton{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 5px;
+    background: #f5f5f5;
+    width: max-content;
+    font-family: sans-serif;
+    transition: all 0.1s ease-in-out;
+}
+.texto-container .boton:hover{
+    background: orange;
+    color:black;
+    transition: all 0.3s ease-in-out;
+}
+
+main .zona-tarjetas-container{
+    /* background: #f5f5f5; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+main .zona-tarjetas-container .encabezado-container h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+main .zona-tarjetas-container .card-container{
+    display: flex;
+    width: 70rem;
+    background: rgb(26, 26, 27);    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.card-container .tarjeta{
+    width: 28%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:175px 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-container .tarjeta:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+.tarjeta .logo-container{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    padding:30px 10px;
+    border-radius: 50%;
+    
+    
+}
+.tarjeta .logo-container i{
+    font-size: 130px;
+    color: black;
+    
+}
+.tarjeta .icono-1{
+    background:  #0aa2c1;
+    
+}
+.tarjeta .icono-2{
+    margin-top: -20px;
+    background: rgb(239, 157, 5);
+    
+}
+
+.tarjeta .icono-3{
+    background:rgb(225, 0, 0);
+}
+.card-container .tarjeta .titulo-tarjeta{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.tarjeta .titulo-tarjeta{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Contenido */
+
+main .texto-contenido-container{
+    width: 70rem;
+    margin-top: 100px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: rgb(26, 26, 27); 
+    color: white;   
+}
+
+.texto-contenido-container h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-size: 40px;
+}
+
+.texto-contenido-container p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.texto-contenido-container .primer-texto{
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    min-height: 100px;
+    background: black;
+    padding-bottom: 20px ;
+}
+
+footer .footer-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px 0;;
+    justify-content: start;
+    
+}
+.footer-container div{
+    width: 13rem;
+    height: 8rem;
+    margin: 0 10px;
+    padding: 20px 10px;
+
+}
+footer .footer-container .nosotros-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+
+footer .footer-container .nosotros-container span{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    
+}
+
+footer .footer-container .nosotros-container a{
+text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: rgb(71, 69, 69);
+    width: 100%;
+    margin: 2px 0;
+    padding: 5px 10px;
+    color: white;
+}
+
+footer .footer-container .nosotros-container a:hover{
+    color: black;
+    background: orange;
+    transition: all 0.3s ease-in-out;
+}
+footer .footer-container .contacto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left; 
+    width: 13rem;
+    min-height: 8rem;
+    margin-top: 20px;
+}
+.contacto-container span i{
+    cursor: pointer;
+}
+
+.contacto-container .footer-titulo-contacto{
+    background: none;
+    color: white;
+}
+.contacto-container span{
+    width: 100%;
+    background: rgb(71, 69, 69);
+    margin: 2px 0;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+}
+
+.contacto-container span:hover{
+    color: black;
+    background: orange;
+    transition: all 0.3s ease-in-out;
+}
+
+
+footer .footer-container .contacto-container .footer-titulo-contacto{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
